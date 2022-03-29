@@ -1,0 +1,8 @@
+package br.com.gf.calc.modelo;
+
+@FunctionalInterface
+public interface MemoriaObserver {
+
+	void valorAlterado(String novoValor);
+	
+}
